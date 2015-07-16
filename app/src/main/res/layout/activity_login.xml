@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mobitec.delizart.Home.LoginActivity"
+    android:background="@color/button_material_dark"
+    android:gravity="center_horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingTop="30dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="30dp"
+        android:paddingLeft="20dp"
+        android:background="#2ffff91c"
+        android:layout_gravity="center_vertical">
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtUsername"
+                    android:layout_weight="1"
+                    android:background="#fff6f9ff"
+                    android:hint="Username"
+                    android:layout_marginBottom="8dp" />
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"
+                    android:ems="10"
+                    android:id="@+id/txtPassword"
+                    android:layout_weight="1"
+                    android:background="#fffffdfd"
+                    android:hint="Password"
+                    android:layout_marginBottom="10dp" />
+                <Button
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="INICIAR SESION"
+                    android:id="@+id/btnIniciarSesion" />
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>
